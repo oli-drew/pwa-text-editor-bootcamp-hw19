@@ -26,7 +26,7 @@ module.exports = () => {
       //
       new InjectManifest({
         swSrc: "./src-sw.js",
-        swDest: "./service-worker.js",
+        swDest: "service-worker.js",
       }),
       new WebpackPwaManifest({
         name: "JUST ANOTHER TEXT EDITOR",
