@@ -209,3 +209,8 @@ h1 {
     font-size: 18px;
   }
 }
+
+/* Hidden Class */
+.hidden {
+  display: none;
+}
